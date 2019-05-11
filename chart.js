@@ -1,3 +1,12 @@
+/*
+
+author= "Jackson Andrew"
+copyright = "Amarint Consulting Private Limited 2019"
+version  = "1.0.0"
+license = "Do whatever you want with this, no obligations"
+
+*/
+
 let canvas=document.querySelector('canvas');
 canvas.width=1500;
 canvas.height=300;
