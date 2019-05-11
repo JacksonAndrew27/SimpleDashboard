@@ -1,0 +1,93 @@
+/* fonts and others */
+
+.normal {
+font-style: normal;
+font-family: Verdana;
+font-size: small;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.normal_white {
+color: white;  
+font-style: normal;
+font-family: Verdana;
+font-size: small;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.italic {
+font-style: italic;
+font-family: Verdana;
+font-size: small;
+}
+
+.oblique {
+font-style: oblique;
+font-family: Verdana;
+font-size: small;
+}
+
+/* Background colour*/
+
+#background{
+  height: 400px;
+  background: linear-gradient(to bottom, #70e784 0%, #ceb0bf 100%);
+}
+
+/* Divs and others */
+
+.div {
+  width: 300px;
+  height: 100px;
+  border: 15px solid grey;
+  padding: 50px;
+  margin: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnSmall {
+  float: none;
+  width: 33.33%;
+  padding: 10px;
+  height: 100px; 
+}
+
+
+/* Clear floats after the columns */
+.rowSmall:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 50px;
+  
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 5px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 100px; 
+  
+}
+
+/*  picture stretch */
+
+#picstretch{
+  height: 100%;
+  width: 100%;
+}
+
